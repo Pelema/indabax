@@ -76,8 +76,8 @@ export const Introduction = () => {
                   {/* <Image
                     src= {`${getImagePrefix()}${item.img}`}
                     alt="npm-package"
-                    className=" mx-auto w-10 h-10 " */}
-                  />
+                    className=" mx-auto w-10 h-10 " 
+                  />*/}
                   <h5 className="text-2xl font-bold mt-3.5 text-white">{`v${item.version}`}</h5>
                   <p className="text-base font-medium text-muted">
                     {item.packageName}
