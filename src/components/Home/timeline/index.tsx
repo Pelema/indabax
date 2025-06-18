@@ -3,9 +3,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { getImagePrefix } from "@/utils/utils";
 
-const images = [
-  "/images/"
-]
+const images = ["/images/"];
 
 const TimeLine = () => {
   const ref = useRef(null);
@@ -38,44 +36,21 @@ const TimeLine = () => {
                   <div>
                     <img
                       className="h-auto max-w-full rounded-lg"
-                      src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
+                      src={`${getImagePrefix()}images/gallery/1.jpg`}
                       alt=""
                     />
                   </div>
                   <div>
                     <img
                       className="h-auto max-w-full rounded-lg"
-                      src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
+                      src={`${getImagePrefix()}images/gallery/3.jpg`}
                       alt=""
                     />
                   </div>
                   <div>
                     <img
                       className="h-auto max-w-full rounded-lg"
-                      src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div className="grid gap-4">
-                  <div>
-                    <img
-                      className="h-auto max-w-full rounded-lg"
-                      src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div>
-                    <img
-                      className="h-auto max-w-full rounded-lg"
-                      src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div>
-                    <img
-                      className="h-auto max-w-full rounded-lg"
-                      src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
+                      src={`${getImagePrefix()}images/gallery/5.jpg`}
                       alt=""
                     />
                   </div>
@@ -84,21 +59,21 @@ const TimeLine = () => {
                   <div>
                     <img
                       className="h-auto max-w-full rounded-lg"
-                      src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
+                      src={`${getImagePrefix()}images/gallery/8.jpg`}
                       alt=""
                     />
                   </div>
                   <div>
                     <img
                       className="h-auto max-w-full rounded-lg"
-                      src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
+                      src={`${getImagePrefix()}images/gallery/9.jpg`}
                       alt=""
                     />
                   </div>
                   <div>
                     <img
                       className="h-auto max-w-full rounded-lg"
-                      src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
+                     src={`${getImagePrefix()}images/gallery/10.jpg`}
                       alt=""
                     />
                   </div>
@@ -107,21 +82,44 @@ const TimeLine = () => {
                   <div>
                     <img
                       className="h-auto max-w-full rounded-lg"
-                      src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
+                      src={`${getImagePrefix()}images/gallery/26.jpg`}
                       alt=""
                     />
                   </div>
                   <div>
                     <img
                       className="h-auto max-w-full rounded-lg"
-                      src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
+                      src={`${getImagePrefix()}images/gallery/14.jpg`}
                       alt=""
                     />
                   </div>
                   <div>
                     <img
                       className="h-auto max-w-full rounded-lg"
-                      src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
+                      src={`${getImagePrefix()}images/gallery/20.jpg`}
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="grid gap-4">
+                  <div>
+                    <img
+                      className="h-auto max-w-full rounded-lg"
+                      src={`${getImagePrefix()}images/gallery/21.jpg`}
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      className="h-auto max-w-full rounded-lg"
+                      src={`${getImagePrefix()}images/gallery/24.jpg`}
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      className="h-auto max-w-full rounded-lg"
+                      src={`${getImagePrefix()}images/gallery/30.jpg`}
                       alt=""
                     />
                   </div>
